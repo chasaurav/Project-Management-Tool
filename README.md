@@ -18,3 +18,10 @@ It should have the following **3 Vue Components :**
 3. Task 3 | 3rd Nov 10 AM | 4th Nov 11 PM.
 
 We will only save the tasks and settings in the DB. Schedule should be calculated dynamically each time the page loads.
+
+### Project Setup
+- Download the Project
+- Configure your Database in *.env* file.
+- Run `npm install && npm run dev` to download all the dependencies.
+- Run `php artisan migrate` to create all the required db tables.
+- Register a New User and Start Using the tool!!!
